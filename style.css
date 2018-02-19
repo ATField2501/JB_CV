@@ -1,0 +1,230 @@
+body
+{ 
+    background-color:grey;
+    background-image: url("BM.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body:active
+{ 
+    background-color:grey;
+    background-image: url("JB00.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+@font-face {
+    font-family: 'Ojack';
+    src: url('Tox Typewriter.ttf');    
+}
+
+
+
+#conteneurGlob
+{
+   display: flex;
+
+}
+
+
+
+.elementG:nth-child(1)
+{
+   flex-shrink: 3;
+   background-image:url("TTTT.jpeg");
+   height: 950px;   
+   border-radius: 10px;
+   margin-left:-1%;
+
+}
+
+
+
+.elementG:nth-child(1):active
+{
+   background-image:url("Peenemunde.jpg");
+   height: 950px;
+   width: 1000px;
+   border-radius: 10px;
+}
+
+
+
+.elementG:nth-child(2)
+{
+   flex: 1;
+   flex-direction: row;
+}
+
+
+
+#conteneur0  
+{
+    display: flex;
+
+
+}
+
+
+
+.element0:nth-child(1)
+{
+   flex: 5;
+
+}
+
+
+
+.element0:nth-child(2)
+{
+
+}
+
+
+
+#conteneur  
+{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+
+h1
+{
+    font-family: 'Ojack', Arial, serif;
+    color: black;
+    font-size: xx-large;
+    padding-left: 5%;
+    text-align: left;
+    height: 5%;
+    width: 25%;
+    margin-left: 45%;
+    margin-right: 45%; 
+
+}
+
+
+
+h2
+{
+    font-family: 'Ojack', Arial, serif;
+}
+
+
+
+li
+{
+
+    font-family: 'Ojack', Arial, serif;
+}
+
+
+
+h4
+{  
+    width: 52%;
+    box-shadow: 0px 6px 6px white;    
+    margin-left: 58%;
+
+}
+
+
+p
+{
+    font-family: 'Ojack', Arial, serif;
+    background-image: url("Peenemunde00.jpg");
+}
+
+
+
+footer
+{
+    font-family: 'Ojack', Arial, serif;
+    text-align:center;
+    text-color: black;
+
+}
+
+
+
+a
+{
+    font-family: 'Ojack', Arial, serif;
+    color: white;
+    box-shadow: 0px 1px 6px black;
+}
+
+
+@media all and (orientation: portrait)
+{
+
+#conteneur  
+{
+
+    flex-direction: column;
+
+    flex-wrap: nowrap;
+}
+
+
+
+#conteneur0  
+{
+
+
+
+    flex-wrap: nowrap;
+}
+
+
+#conteneurGlob
+{
+  
+
+    flex-wrap: nowrap;
+
+}
+
+nav
+{
+
+    display: none;
+}
+
+h1
+{
+    font-family: 'Ojack', Arial, serif;
+    color: black;
+    font-size: xx-large;
+    padding-left: 5%;
+    text-align: center;
+    height: 5%;
+    width: 25%;
+    margin-left: 75%;
+    margin-right: 45%; 
+
+}
+
+h2
+{
+    margin-left: 5%;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
